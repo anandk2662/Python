@@ -1,0 +1,9 @@
+friends=["Apple","orange",5,"bannana",False]
+print(friends[0])
+friends[0]="mango"
+print(friends[0])
+value=friends.remove("orange")
+print(friends)
+print(value)
+friends.pop(2)
+print(friends)
